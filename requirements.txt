@@ -1,0 +1,16 @@
+fastapi>=0.110.0
+uvicorn>=0.27.0
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-cohere>=0.3.0
+langchain-tavily>=0.2.0
+python-dotenv>=1.0.0
+httpx>=0.27.0
+supabase>=2.0.0
+pypdf>=5.0.0
+numpy>=1.26.0
+requests>=2.31.0
+mangum>=0.17.0

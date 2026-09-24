@@ -46,7 +46,7 @@ GROQ_API_KEY = _require_env("groq_api_key_3")
 _require_env("TAVILY_API_KEY")  # read implicitly by TavilySearch; validated here for a clean startup failure
 
 llm = ChatOpenAI(
-    model="llama-3.3-70b-versatile",
+    model=" openai/gpt-oss-120b",
     base_url="https://api.groq.com/openai/v1",
     api_key=GROQ_API_KEY,
 )
